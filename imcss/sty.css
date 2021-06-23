@@ -1,0 +1,212 @@
+
+body{
+  background-color: powderblue;
+  margin: 0;
+  text-align: center;
+  font-style: serif;
+  font-weight:lighter;
+  font-family:monospace;
+}
+#mm{
+  /* font-family: sans-serif,cursive; */
+  /* font-family: 'Big Shoulders Stencil Display', cursive; */
+  font-family: 'Sacramento', cursive;
+  width: 30%;
+  color:#66BFBF;
+  /* font-size: 90px;
+  font-size: 562.5%; */
+  /* font-size: 5.62em;     16px=100%=1em */
+  font-size: 5.62rem;
+  margin: 0 auto 0 auto;
+}
+.h2-prof{
+  color:#66BFBF;
+}
+.para-prof{
+  font-weight: normal;
+  font-family: cursive;
+  color:#40514E;
+
+}
+.hrlll{
+  color:orange;
+  height:1px;
+}
+.hackerrank{
+  margin-left: 25px;
+  float:right;
+}
+.Codechef{
+  margin-right: 25px;
+  float: left;
+}
+#initial-div{
+  background-color:#EAF6F6;
+}
+#middle-div{
+  background-color:#faebd7;
+}
+#hktext{
+  /* line-height: 2; */
+  text-align: left;
+  font-family: cursive;
+  font-weight: normal;
+  color:#40514E;
+  /* clear: right; */
+}
+#cctext{
+  /* line-height: 2; */
+  text-align: left;
+  font-family: cursive;
+  font-weight: normal;
+  color:#40514E;
+  /* clear: left; */
+}
+#divl{
+  color:red;
+}
+#ccid{
+  color:red;
+}
+#hkid{
+  color:red;
+}
+#hrll{
+  color:orange;
+}
+#head2{
+  color:#66BFBF;
+}
+#skid{
+  font-size: 45px;
+  color:#66BFBF;
+  font-family:serif;
+}
+#scid{
+  color:lime;
+}
+p{
+  /* font-family: 'Big Shoulders Stencil Display', sans-serif; */
+  font-family: fantasy;
+}
+.cloud2{
+  position: absolute;
+}
+.cloud1{
+  position: relative;
+  margin-left: 350px;
+}
+.prof-pic{
+  border-radius: 70%;
+}
+.footer-link{
+  font-size: 30px;
+  margin-right: 10px;
+  /* text-decoration: none; */
+}
+.footer-link:hover{
+  color:#EAF6F6;
+}
+.BUTTON_PBN {
+   <a class="btn" target="_blank;" href="mailto:gandhi.monil288@email.com">Mail me!!</a>
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: serif;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_PBN:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.copyright{
+  color:#EAF6F6;
+  font-family: sans-serif;
+  font-size: 1.75em;
+}
+.bottom-container{
+  padding-top: 20px;
+}
+/*
+.top-container{
+
+  following is box style css:
+  margin: 20px;
+  border: solid 5px;
+  border-style: dotted;
+  padding-left: 20px;
+  padding-bottom: 51px;
+  */
+  /*
+  height: 200px;
+  width: 200px;
+  border: solid 10px;
+  padding: 20px; */
+/*}
+/*
+.middle-container{
+  background-color: red;
+  margin-left: 260px;
+  border: solid 20px;
+  width: 200px;
+  height: 200px;
+}
+.bottom-container{
+  background-color: blue;
+  margin-left: 500px;
+  border: solid 10px;
+  width: 200px;
+  height: 200px;
+}
+.c1{
+  display: inline;
+  background-color: red;
+  width: 200px;  /*not valid as in inline we can't change height,width*/
+/* }
+.c2{
+  display: block;
+  background-color: red;
+  height: 70px;      /*valid*/
+  /* width: 20px;      /*valid*/
+/* }
+.c3{
+  display:inline-block;
+  background-color: red;
+  height: 70px;      /*valid*/
+  /* width: 210px;      /*valid*/
+/* }
+.c4{
+  display: block;
+  width: 50px;
+  height: 35px;
+  /*display:none;*/    /*it will disappear it*/
+  /* visibility: hidden; /*it will disappear text but its occupied space will be there*/
+/* } */
